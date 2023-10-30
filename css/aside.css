@@ -1,8 +1,14 @@
 aside{
     text-align: center;
+    padding: 15px;
+    font-size: 14px;
 }
 
 aside a img{
     width: 40px;
 }
 
+aside a p{
+    margin-top:0;
+    color: black;
+}

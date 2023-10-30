@@ -1,0 +1,15 @@
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+footer div div img{
+    height: 60px; 
+}
+
+.icon-footer{
+    font-size: 14px;
+}

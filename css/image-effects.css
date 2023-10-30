@@ -1,0 +1,59 @@
+/**Para tenerlas imagenes grises y cuando pasen por encima revive el color*/
+
+.product-box img{
+    filter: grayscale(100%)
+}
+
+.product-box:hover img{
+    transform: scale(1);
+    filter: grayscale(0%);
+}
+
+
+
+/**Para aplicar saturación a las imagenes, el color se hace mas fuerte*/
+
+.product-box img{
+    filter: saturate(1)
+}
+
+.product-box:hover img{
+    transform: scale(1);
+    filter: saturate(2);
+}
+
+
+/**Para pasar a blanco y negro*/
+
+.product-box img{
+    filter: saturate(0)
+}
+
+.product-box:hover img{
+    transform: scale(1);
+    filter: saturate(2);
+}
+
+
+/**Para pasar a muchoi brillo*/
+
+.product-box img{
+    filter: brightness(1);
+}
+
+.product-box:hover img{
+    transform: scale(1);
+    filter: brightness(1.2)
+}
+
+
+/**Para pasar a contraste*/
+
+.product-box img{
+    filter: contrast(1);
+}
+
+.product-box:hover img{
+    transform: scale(1);
+    filter: contrast(1.2)
+}
